@@ -1,0 +1,64 @@
+object MainView: TMainView
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 704
+  ClientWidth = 464
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnActivate = FormActivate
+  DesignerMasterStyle = 0
+  object ListView: TListView
+    ItemAppearanceClassName = 'TDynamicAppearance'
+    ItemEditAppearanceClassName = 'TDynamicAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    Align = Client
+    Size.Width = 464.000000000000000000
+    Size.Height = 704.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    OnResized = ListViewResized
+    ItemAppearance.ItemHeight = 64
+    ItemAppearance.ItemEditHeight = 64
+    ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+      item
+        AppearanceObjectName = 'Title'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Font.StyleExt = {00070000000000000004000000}
+        Appearance.TextAlign = Leading
+        Appearance.Width = 319.000000000000000000
+        Appearance.Height = 21.000000000000000000
+        Appearance.PlaceOffset.Y = 4.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'ID'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.Visible = False
+      end
+      item
+        AppearanceObjectName = 'Description'
+        AppearanceClassName = 'TTextObjectAppearance'
+        Appearance.TextAlign = Leading
+        Appearance.Width = 251.000000000000000000
+        Appearance.Height = 22.000000000000000000
+        Appearance.VertAlign = Trailing
+        Appearance.PlaceOffset.Y = -4.000000000000000000
+      end
+      item
+        AppearanceObjectName = 'Image'
+        AppearanceClassName = 'TImageObjectAppearance'
+        Appearance.Width = 54.000000000000000000
+        Appearance.Height = 48.000000000000000000
+        Appearance.Align = Trailing
+        Appearance.PlaceOffset.Y = 8.000000000000000000
+      end>
+    ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+      item
+        AppearanceObjectName = 'Text1'
+        AppearanceClassName = 'TTextObjectAppearance'
+      end>
+    ShowSelection = False
+  end
+end
