@@ -11,7 +11,7 @@ Note that the drawable recource displayed applies to the **version of Android** 
 
 ## Screenshot
 
-<img src="screenshot.png" alt="screenshot" height="600">
+<img src="Screenshot.png" alt="screenshot" height="600">
 
 ## License
 
