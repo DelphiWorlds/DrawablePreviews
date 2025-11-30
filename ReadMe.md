@@ -9,6 +9,10 @@ Can be useful for determining what the drawable resource might look like when yo
 Note that the drawable recource displayed applies to the **version of Android** that your device is running. 
 **It may look different on other versions of Android**
 
+## Screenshot
+
+<img src="screenshot.png" alt="screenshot" height="600">
+
 ## License
 
 Licensed under MIT, and the license file is included in this folder.
